@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "idroid";
+  src: url("fontes/idroid.otf") format("opentype"); 
+}
+
+*{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(122, 247, 153);
+}
+
+.cabeça{
+  background-image: linear-gradient(to bottom, #02fc4d88, #085c00);
+  height: 200px;
+}
+
+
+ul{
+  margin-top: 18px;
+  padding: 10px;
+
+}
+
+.nav{
+  margin-top: 0px;
+  background-color: #085c00;
+  padding: 20px;
+}
+
+nav > ul > a:hover{
+  background-color: rgb(217, 227, 236);
+  color: black;
+  border-radius: 5px;
+}
+
+
+nav > ul > a{
+  padding: 10px;
+  text-decoration: none;
+  color: white; 
+  font-weight: bold;
+  transition-duration: .5s ;
+}
+
+.titulo{
+  text-align: center;
+  color: white;
+  padding: 35px 35px 25px 35px;
+}
+
+.sub{
+  text-align: center;
+  color: white;
+  max-width: 450px;
+  margin: auto;
+}
+
+.img{
+  text-align: center;
+  width: 100%;
+ 
+}
+
+.background{
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  min-width: 280px;
+  max-width: 800px;
+}
+
+.title{
+  font-family: idroid;
+  text-align: left;
+  margin-left: 5px;
+  color: #0a6302;
+}
+
+.intro{
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 10px;
+  line-height: 25px;
+  padding: 7px;
+}
+
+.subtitulo{
+  text-align: left;
+  font-family: idroid;
+  color: #0a6302;
+  margin-top: 10px;
+  background-image: linear-gradient(to right, rgb(158, 247, 158), white);
+  text-shadow: 1px 0px 2px;
+}
+
+.normal{
+  text-decoration: none;
+  color: #0b6603;
+  font-weight: bold;
+}
+
+.dan{
+  color: #0b6603;
+  font-weight: bold;
+}
+
+
+
+.video{
+  background-color: #085c00;
+  margin-top: 8px;
+  padding: 20px;
+  margin: 0px -10px 0px -10px;
+  position: relative;
+  padding-bottom: 55.2%;
+}
+
+div.video > iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+
+.box{
+  min-width: 280px;
+  max-width: 800px;
+  border-radius: 10px;
+  background-color: rgb(128, 245, 144);
+}
+
+.tabelaheader{
+  text-align: left;
+  background-color: #a0da9cc9;
+  font-size: 1.5em;
+  padding: 5px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.left{
+  text-align: left;
+
+}
+
+aside ul{
+  columns: 2;
+  padding: 10px;
+  list-style-position: inside;
+  list-style-type: '\2714\00A0';
+}
+
+
+.fim{
+  padding-bottom: 15px;
+}
+
+.rodape{
+  text-align: center;
+  background-color: #145c0d;
+  color: aliceblue;
+  padding: 3px;
+  min-width: 320px;
+  max-width: 813px;
+  margin: auto;
+}
+
+
+a{
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
